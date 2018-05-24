@@ -1,10 +1,14 @@
-<h1>New to do</h1>
-<%= form_for @todo do |f|%>
+
+
+<h1>Edit To Do </h1>
+<%= form_for @todo do |f| %>
   <%= f.label :name %>
   <%= f.text_field :name %>
 
   <%= f.label :importance %>
   <%= f.text_field :importance %>
 
-  <%= f.submit "Enter Item" %>
+  
+
+  <%= f.submit "Remove Item" %>
 <% end %>

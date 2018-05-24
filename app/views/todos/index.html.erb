@@ -7,4 +7,6 @@
   <h2><%= todo.name %> </h2>
 
   <%= link_to 'Show To Do List', todo_path(todo)%>
+  <%= link_to 'Edit Item', edit_todo_path(todo)%>
+  <%= link_to 'Desrty Item', todo, method: :delete%>
   <%end%>
